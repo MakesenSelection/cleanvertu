@@ -9,9 +9,9 @@ const Hero = () => {
         <img
           src={heroImage}
           alt="Professionnel de nettoyage VERTuCLEAN"
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/60" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
@@ -24,12 +24,13 @@ const Hero = () => {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-balance leading-tight">
-            Un espace propre, une planète saine
+            Harmonie d'espaces, harmonie d'esprit.
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 text-balance">
-            VERTuCLEAN révolutionne le nettoyage professionnel avec une approche 100% écologique,
-            respectueuse de votre santé et de notre environnement.
+            VERTuCLEAN vous accompagne avec sérieux et convivialité pour un nettoyage professionnel 
+            respectant les plus hauts standards de propreté, en utilisant des produits non nocifs 
+            pour votre santé et notre environnement.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">

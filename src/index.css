@@ -28,6 +28,8 @@ All colors MUST be HSL.
 
     --accent: 210 70% 55%;
     --accent-foreground: 0 0% 100%;
+    
+    --accent-light: 100 35% 92%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
