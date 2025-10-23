@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Home, Building2, Sparkles, Sofa, HardHat, AlertTriangle, MapPin, ClipboardCheck } from "lucide-react";
+import { Home, Building2, Sparkles, Sofa, HardHat, AlertTriangle, MapPin, ClipboardCheck, Compass } from "lucide-react";
 import windowCleaningImg from "@/assets/window-cleaning.jpg";
 import textileCleaningImg from "@/assets/textile-cleaning.jpg";
 import residentialCleaningImg from "@/assets/residential-cleaning.jpg";
@@ -8,7 +8,6 @@ import businessCleaningImg from "@/assets/business-cleaning.jpg";
 import postConstructionImg from "@/assets/post-construction.jpg";
 import extremeCleaningImg from "@/assets/extreme-cleaning.jpg";
 import hygieneAssessmentImg from "@/assets/hygiene-assessment.jpg";
-import occitanieMapImg from "@/assets/occitanie-map.jpg";
 
 const Services = () => {
   const services = [
@@ -137,12 +136,8 @@ const Services = () => {
             </div>
           </CardHeader>
           <CardContent>
-            <div className="mb-6 rounded-lg overflow-hidden">
-              <img
-                src={occitanieMapImg}
-                alt="Carte de l'Occitanie - Zone d'intervention VERTuCLEAN"
-                className="w-full h-64 object-cover"
-              />
+            <div className="flex items-center justify-center mb-6">
+              <Compass className="h-32 w-32 text-primary" />
             </div>
             <div className="text-center space-y-3">
               <p className="text-lg">
