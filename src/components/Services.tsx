@@ -1,8 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Home, Building2, Sparkles, Sofa, HardHat, AlertTriangle, MapPin, ClipboardCheck, Compass } from "lucide-react";
+import { Home, Building2, Sparkles, Sofa, Car, HardHat, AlertTriangle, MapPin, ClipboardCheck, Compass } from "lucide-react";
 import windowCleaningImg from "@/assets/window-cleaning.jpg";
 import textileCleaningImg from "@/assets/textile-cleaning.jpg";
+import vehicleCleaningImg from "@/assets/vehicle-cleaning.jpg";
 import residentialCleaningImg from "@/assets/residential-cleaning.jpg";
 import businessCleaningImg from "@/assets/business-cleaning.jpg";
 import postConstructionImg from "@/assets/post-construction.jpg";
@@ -39,6 +40,13 @@ const Services = () => {
       description: "Canapés, tapis, moquettes et tissus d'ameublement retrouvent leur éclat.",
       details: "Traitement en profondeur avec matériel vapeur professionnel",
       image: textileCleaningImg,
+    },
+    {
+      icon: Car,
+      title: "Nettoyage de Véhicules",
+      description: "Lavage intérieur et/ou extérieur à domicile pour professionnels et particuliers.",
+      details: "Service sur place avec équipement professionnel",
+      image: vehicleCleaningImg,
     },
     {
       icon: HardHat,
