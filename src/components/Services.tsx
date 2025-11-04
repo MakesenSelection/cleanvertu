@@ -77,7 +77,7 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-          {services.map((service, index) => (
+          {services.slice(0, 6).map((service, index) => (
             <Card
               key={index}
               className="group hover:shadow-lg transition-all duration-300 overflow-hidden"
@@ -108,6 +108,36 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Nettoyage de l'Extrême - Centré */}
+        <div className="max-w-2xl mx-auto mb-12">
+          <Card className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            {services[6].image && (
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={services[6].image}
+                  alt={services[6].title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            )}
+            <CardHeader>
+              <div className="flex items-center justify-between mb-2">
+                <AlertTriangle className="h-10 w-10 text-primary" />
+                {services[6].badge && (
+                  <Badge variant="secondary">
+                    {services[6].badge}
+                  </Badge>
+                )}
+              </div>
+              <CardTitle className="text-xl">{services[6].title}</CardTitle>
+              <CardDescription className="text-base">{services[6].description}</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-sm text-muted-foreground">{services[6].details}</p>
+            </CardContent>
+          </Card>
         </div>
 
         <div className="max-w-2xl mx-auto mb-12">

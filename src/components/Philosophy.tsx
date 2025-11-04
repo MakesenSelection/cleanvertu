@@ -58,7 +58,7 @@ const Philosophy = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Épanouissement professionnel</h3>
                     <p className="text-muted-foreground">
-                      Nous investissons dans la formation continue et le développement personnel 
+                      Nous investissons dans la formation et le développement personnel 
                       de notre équipe, car leur bien-être garantit la qualité de nos prestations.
                     </p>
                   </div>

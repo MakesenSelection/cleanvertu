@@ -69,9 +69,9 @@ const Contact = () => {
               <CardTitle className="text-lg">Disponibilité</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-lg font-semibold">Lun - Ven</p>
+              <p className="text-lg font-semibold">Lundi - Samedi</p>
               <p className="text-sm text-muted-foreground mt-2">
-                8h - 19h
+                Service disponible
               </p>
             </CardContent>
           </Card>
