@@ -40,7 +40,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center space-x-3">
-            <img src={logo} alt="VERTuCLEAN Logo" className="h-28 w-28" />
+            <img src={logo} alt="VERTuCLEAN Logo" className="h-28 w-28 rounded-full ring-2 ring-primary/20 shadow-sm" />
             <span className="text-3xl font-bold text-foreground">VERTuCLEAN</span>
           </a>
 
