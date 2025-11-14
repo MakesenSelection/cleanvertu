@@ -8,10 +8,10 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img
           src={heroImage}
-          alt="Professionnel de nettoyage VERTuCLEAN"
-          className="w-full h-full object-cover opacity-40"
+          alt="Services de nettoyage VERTuCLEAN - vitres, textiles, véhicules et fin de chantier"
+          className="w-full h-full object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/90 to-background/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/70 to-background/30" />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
